@@ -1,0 +1,42 @@
+{
+    "folder_to_track":"/home/pramodkadam/Downloads",
+    "relocation_list":
+    [
+        {
+            "type":[".ai", ".bmp", ".gif", ".ico", ".jpeg", ".jpg", ".png", ".ps", ".psd", ".svg", ".tif", ".tiff"],
+            "target_location":"Downloads/images"
+        },
+        {
+            "type":[".7z", ".arj", ".deb", ".pkg", ".rar", ".rpm", ".tar.gz", ".z", ".zip"],
+            "target_location":"Downloads/compressed_files"
+        },
+        {
+            "type":[".csv", ".dat", ".db", ".dbf", ".log", ".mdb", ".sav", ".sql", ".tar", ".xml"],
+            "target_location":"Downloads/data_files"
+        },
+        {
+            "type":[".key", ".odp", ".pps", ".ppt", ".pptx"],
+            "target_location":"Downloads/office_files"
+        },
+        {
+            "type":[".doc", ".docx", ".odt", ".pdf", ".rtf", ".tex", ".txt", ".wpd"],
+            "target_location":"Downloads/document"
+        },
+        {
+            "type":[ ".c", ".class", ".cpp", ".cs", ".h", ".java", ".pl", ".sh", ".swift", ".vb", ".py", ".ipynb" ],
+            "target_location":"Downloads/program"
+        },
+        {
+            "type":[ ".ods", ".xls", ".xlsm", ".xlsx" ],
+            "target_location":"Downloads/spreadsheet"
+        },
+        {
+            "type":[ ".aif", ".cda", ".mid", ".midi", ".mp3", ".mpa", ".ogg", ".wav", ".wma", ".wpl"  ],
+            "target_location":"Downloads/audio_files"
+        },
+        {
+            "type":[ ".3g2", ".3gp", ".avi", ".flv", ".h264", ".m4v", ".mkv", ".mov", ".mp4", ".mpg", ".mpeg", ".rm", ".swf", ".vob", ".wmv"   ],
+            "target_location":"Downloads/video_files"
+        }
+    ]
+}
