@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from psutil import sensors_battery
 import os , time
 def setWallpaper( dirAdderss):
@@ -21,7 +22,7 @@ def setWallpaper( dirAdderss):
     
     return str("gsettings set org.gnome.desktop.background picture-uri file://"+ dirAdderss + type + image)
 if __name__=="__main__":
-    dirAdderss = str(os.getcwd()) # Add directory address when you change it
+    dirAdderss = "/home/pramodkadam/Workspace/git/Scripts-and-customization-files/scripts/Battery-Wallpaper-Python-Script"
     cmd = None
     precmd = None
     while True:
