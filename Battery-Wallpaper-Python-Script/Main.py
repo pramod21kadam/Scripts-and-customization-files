@@ -9,13 +9,13 @@ def setWallpaper( dirAdderss):
     if plugged==False: type="/battery_"
     else: type="/charge_"
 
-    if  percent > 0 and percent < 20:
+    if  percent >= 0 and percent < 20:
         image = "1.png"
-    elif percent > 20 and percent< 40:
+    elif percent >= 20 and percent< 40:
         image = "2.png"
-    elif percent > 40 and percent < 60:
+    elif percent >= 40 and percent < 60:
         image = "3.png"
-    elif percent > 60 and percent < 80:
+    elif percent >= 60 and percent < 80:
         image = "4.png"
     else:
         image = "5.png"
